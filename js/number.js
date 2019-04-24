@@ -5,37 +5,38 @@ var b = 100;
 console.log(b);
 var a = 20;
 console.log(a);
-var c = 0x1E; //hex value of 30
+var c = 0x1E; // hex value of 30
 console.log(c);
 var d = 0.5;
 console.log(d);
 
-//addition
+// addition
 var sum = a + b;
 console.log(sum);
 
-//subtraction
+// subtraction
 var diff = d - c;
 console.log(diff);
 
-//multiplication
+// multiplication
 var multi = a * d;
 console.log(multi);
 
-//division
+// division
 var div = a / d;
 console.log(div);
 var div = b / a;
 console.log(div);
 
-//modulus
+// modulus
 var mod = b % a;
 console.log (mod);
 var mod = b % c;
 console.log (mod);
 
-var e = '20'; //not a numer; but is a string
-console.log(e); //returns the type of variable e rather than a value
-console.log(typeof e); //returns the value rather than the type
+var e = '20'; // not a numer; but is a string
+console.log(e); // returns the type of variable e rather than a value
+console.log(typeof e); // returns the value rather than the type
 
-console.log (a === e);
+console.log (a === e); // strict comparison
+console.log (a == e); // loose comparison //truthy
