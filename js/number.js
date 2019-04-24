@@ -34,5 +34,8 @@ console.log (mod);
 var mod = b % c;
 console.log (mod);
 
-var e = '5';
-console.log(typeof e);
+var e = '20'; //not a numer; but is a string
+console.log(e); //returns the type of variable e rather than a value
+console.log(typeof e); //returns the value rather than the type
+
+console.log (a === e);
