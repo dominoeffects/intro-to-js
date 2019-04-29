@@ -1,6 +1,6 @@
 // boolean data type
-var a = true;
-var b = false;
+var a = true; // 1
+var b = false; // 0
 
 console.log(12 == '12');
 console.log(24 === '24');

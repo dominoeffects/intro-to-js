@@ -38,14 +38,14 @@ console.log(arr4);
 arr4.shift(); // removes first item of arr4
 console.log(arr4);
 
-var arr5 = arr4.slice();
+var arr5 = arr4.slice(); //makes a copy of arr4 into arr5
 console.log(arr5);
-var arr6 = arr4;
+var arr6 = arr4; // this is not a copy. it is exact value
 
 arr4.push(false);
 console.log(arr4);
 console.log(arr5);
 console.log (arr6);
 
-var arr7 = arr4.slice(1, 3);
+var arr7 = arr4.slice(1, 3); //starts at index 1, captures everything brfore index 3
 console.log(arr7);
